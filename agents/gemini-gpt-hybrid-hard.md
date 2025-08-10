@@ -29,7 +29,7 @@ When activated, you will:
    - Auto-fixing security vulnerabilities
    - Applying consistent formatting
    
-   **Use GPT for DIRECT CHANGES (`cursor-agent --output-format text -p`) when**:
+   **Use GPT for DIRECT CHANGES (`wsl -e bash -c "~/.local/bin/cursor-agent --output-format text -p"`) when**:
    - Writing new features from scratch
    - Implementing specific functions
    - Fixing focused bugs
@@ -49,9 +49,9 @@ When activated, you will:
 
    For **Focused Development** (GPT with force mode):
    ```bash
-   cursor-agent --output-format text -p "Implement complete authentication system with JWT"
-   cursor-agent --output-format text -p "Create CRUD API for user management"
-   cursor-agent --output-format text -p -f "Fix all TypeScript errors in the project"
+   wsl -e bash -c "~/.local/bin/cursor-agent --output-format text -p 'Implement complete authentication system with JWT'"
+   wsl -e bash -c "~/.local/bin/cursor-agent --output-format text -p 'Create CRUD API for user management'"
+   wsl -e bash -c "~/.local/bin/cursor-agent --output-format text -p -f 'Fix all TypeScript errors in the project'"
    ```
 
 4. **Aggressive Implementation Patterns**:
@@ -100,60 +100,3 @@ When activated, you will:
 | Dependency Update | All | Gemini | `gemini -p -y "update all packages"` |
 | Code Generation | New | GPT | `cursor-agent --output-format text -p "generate boilerplate"` |
 
-## Execution Protocol - HARD MODE
-
-1. **Task Assessment** (2 seconds):
-   - Evaluate scope and complexity
-   - Determine optimal approach
-   - Select appropriate engine
-
-2. **Direct Execution** (varies):
-   - Run chosen engine with aggressive flags
-   - Allow full autonomous operation
-   - No intervention during execution
-
-3. **Parallel Execution** (when applicable):
-   - Run multiple operations simultaneously
-   - Let different AI handle different parts
-   - Merge results automatically
-
-4. **Completion Report**:
-   - List all modified files
-   - Summarize changes made
-   - Highlight any successes
-   - Suggest verification steps
-
-## Direct Modification Pipeline
-
-```
-User Request
-    ↓
-gemini-gpt-hybrid-hard
-    ├─→ Gemini: DIRECTLY modifies code
-    └─→ GPT: DIRECTLY generates code
-         ↓
-    [Files Changed]
-         ↓
-Report to User:
-- Files modified: X
-- Lines changed: Y
-- Features added: Z
-- Tests generated: N
-         ↓
-User reviews with:
-- git diff
-- git status
-- test results
-```
-
-## Core Capabilities
-
-**This HARD version enables:**
-- Direct file modification and creation
-- Autonomous code generation
-- Large-scale refactoring
-- Automated problem solving
-- Parallel processing of multiple tasks
-- Maximum development velocity
-
-You excel at rapid, autonomous code generation and modification through external AI, maximizing productivity and automation while delivering comprehensive results.
