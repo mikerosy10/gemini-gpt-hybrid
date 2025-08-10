@@ -8,14 +8,8 @@ Need AI assistance?
     ├─→ Production/Critical System?
     │   └─→ Use: gemini-gpt-hybrid-soft ✅
     │
-    ├─→ Experimental/Prototype?
-    │   └─→ Use: gemini-gpt-hybrid-hard ⚡
-    │
-    ├─→ Just need Gemini?
-    │   └─→ Use: gemini-codebase-explorer 🔷
-    │
-    └─→ Just need GPT?
-        └─→ Use: chatgpt5-code-explorer 🟦
+    └─→ Experimental/Prototype?
+        └─→ Use: gemini-gpt-hybrid-hard ⚡
 ```
 
 ## Detailed Selection Criteria
@@ -50,19 +44,6 @@ Need AI assistance?
 - "Generate complete CRUD API automatically"
 - "Fix all linting errors across the project"
 
-### Use `gemini-codebase-explorer` when:
-🔷 Need massive context window  
-🔷 Analyzing entire repositories  
-🔷 Want Gemini specifically  
-🔷 Cross-file pattern detection  
-🔷 Comprehensive documentation generation  
-
-### Use `chatgpt5-code-explorer` when:
-🟦 Need rapid iterations  
-🟦 Want GPT specifically  
-🟦 Focused on specific files  
-🟦 Interactive debugging  
-🟦 Quick fixes  
 
 ## Risk Matrix
 
@@ -70,8 +51,6 @@ Need AI assistance?
 |-------|------------|-----------------|-----------------|
 | **Soft** | None ✅ | N/A | All users, Production |
 | **Hard** | High ⚠️ | Git reset | Advanced users only |
-| **Gemini** | Low 🟡 | Manual revert | Analysis tasks |
-| **GPT** | Low 🟡 | Manual revert | Focused tasks |
 
 ## Pre-flight Checklist
 
@@ -134,7 +113,7 @@ git restore --staged .
 
 1. **Start with SOFT**: Always try soft mode first
 2. **Graduate to HARD**: Only when comfortable and safe
-3. **Use specialized agents**: When you need specific AI
+3. **Understand the modes**: Soft for safety, Hard for speed
 4. **Keep backups**: Always, but especially for hard mode
 5. **Review changes**: Even in soft mode, review Claude's work
 6. **Test everything**: Automated tests are your friend

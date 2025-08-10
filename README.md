@@ -77,10 +77,10 @@ cd claude-ai-agents
 2. **Copy agents to Claude configuration:**
 ```bash
 # Linux/Mac
-cp *.md ~/.claude/agents/
+cp -r agents ~/.claude/
 
 # Windows
-copy *.md %USERPROFILE%\.claude\agents\
+xcopy agents %USERPROFILE%\.claude\agents\ /E /I
 ```
 
 3. **Verify installation:**
@@ -122,7 +122,7 @@ Simply mention the agent in your Claude conversation:
 ## 🤖 Available Agents
 
 ### 🎭 Gemini-GPT Hybrid (SOFT Version)
-**File:** `gemini-gpt-hybrid-soft.md`
+**File:** `agents/gemini-gpt-hybrid-soft.md`
 
 The SAFE version that uses external AI for analysis only, with Claude implementing all code changes.
 
@@ -141,7 +141,7 @@ The SAFE version that uses external AI for analysis only, with Claude implementi
 - Maintaining code quality
 
 ### ⚡ Gemini-GPT Hybrid (HARD Version)
-**File:** `gemini-gpt-hybrid-hard.md`
+**File:** `agents/gemini-gpt-hybrid-hard.md`
 
 The AGGRESSIVE version that allows external AI to directly modify your codebase. ⚠️ **USE WITH CAUTION**
 
@@ -166,25 +166,6 @@ git add -A && git commit -m "Backup"
 git checkout -b experimental
 ```
 
-### 🔷 Gemini Codebase Explorer
-**File:** `gemini-codebase-explorer.md`
-
-Specialized agent for leveraging Gemini's massive context window.
-
-**Best For:**
-- Entire project analysis
-- Cross-module pattern detection
-- Comprehensive documentation generation
-
-### 🟦 ChatGPT5 Code Explorer
-**File:** `chatgpt5-code-explorer.md`
-
-Focused agent for rapid development and iteration.
-
-**Best For:**
-- Quick bug fixes
-- Feature implementation
-- Interactive debugging
 
 ## 🔄 Soft vs Hard Mode Comparison
 
