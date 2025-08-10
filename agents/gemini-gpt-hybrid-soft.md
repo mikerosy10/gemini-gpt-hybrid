@@ -30,7 +30,7 @@ When activated, you will:
    - Security auditing entire applications
    - Understanding complex dependencies
    
-   **Use GPT for ANALYSIS (`wsl -e bash -c "~/.local/bin/cursor-agent -p"`) when**:
+   **Use GPT for ANALYSIS (`cursor-agent -p`) when**:
    - Analyzing specific files or functions
    - Understanding focused problems
    - Debugging specific issues
@@ -54,9 +54,9 @@ When activated, you will:
    For **Focused Analysis** (GPT):
    ```bash
    # Analyze and understand - NO code changes
-   wsl -e bash -c "~/.local/bin/cursor-agent -p 'Analyze this error in auth.js and explain the root cause'"
-   wsl -e bash -c "~/.local/bin/cursor-agent -p 'Review this function and identify improvement opportunities'"
-   wsl -e bash -c "~/.local/bin/cursor-agent -p 'Analyze performance bottlenecks and suggest optimization strategies'"
+   cursor-agent -p "Analyze this error in auth.js and explain the root cause"
+   cursor-agent -p "Review this function and identify improvement opportunities"
+   cursor-agent -p "Analyze performance bottlenecks and suggest optimization strategies"
    ```
 
 4. **Safe Implementation Pipeline**:
@@ -93,16 +93,16 @@ When activated, you will:
 
 ## Decision Matrix
 
-| Task Type | File Count | Context Size | Preferred Engine | Command Pattern |
-|-----------|------------|--------------|------------------|-----------------|
-| Architecture Review | Many | Large | Gemini | `gemini -p "@./ analyze architecture"` |
-| Bug Fix | 1-3 | Small | GPT | `cursor-agent -p "fix bug in [file]"` |
-| Refactoring | 5-10 | Medium | Gemini | `gemini -p "@src/ suggest refactoring"` |
-| New Feature | 1-5 | Small | GPT | `cursor-agent -p "implement [feature]"` |
-| Security Audit | All | Large | Gemini | `gemini -p "@./ -a security audit"` |
-| Code Review | 1-3 | Small | GPT | `cursor-agent -p "review changes"` |
-| Documentation | All | Large | Gemini | `gemini -p "@./ generate docs"` |
-| Debugging | 1-2 | Small | GPT | `cursor-agent -p "debug [issue]"` |
+| Task Type | File Count | Context Size | Preferred Engine | Analysis Focus |
+|-----------|------------|--------------|------------------|----------------|
+| Architecture Review | Many | Large | Gemini | System-wide patterns |
+| Bug Investigation | 1-3 | Small | GPT | Root cause analysis |
+| Refactoring Analysis | 5-10 | Medium | Gemini | Code smell detection |
+| Feature Planning | 1-5 | Small | GPT | Implementation strategy |
+| Security Audit | All | Large | Gemini | Vulnerability scanning |
+| Code Review | 1-3 | Small | GPT | Quality assessment |
+| Documentation Gaps | All | Large | Gemini | Coverage analysis |
+| Debug Analysis | 1-2 | Small | GPT | Problem isolation |
 
 ## Execution Protocol
 

@@ -29,7 +29,7 @@ When activated, you will:
    - Auto-fixing security vulnerabilities
    - Applying consistent formatting
    
-   **Use GPT for DIRECT CHANGES (`wsl -e bash -c "~/.local/bin/cursor-agent -p"`) when**:
+   **Use GPT for DIRECT CHANGES (`cursor-agent -p`) when**:
    - Writing new features from scratch
    - Implementing specific functions
    - Fixing focused bugs
@@ -49,9 +49,9 @@ When activated, you will:
 
    For **Focused Development** (GPT with force mode):
    ```bash
-   wsl -e bash -c "~/.local/bin/cursor-agent -p 'Implement complete authentication system with JWT'"
-   wsl -e bash -c "~/.local/bin/cursor-agent -p 'Create CRUD API for user management'"
-   wsl -e bash -c "~/.local/bin/cursor-agent -p -f 'Fix all TypeScript errors in the project'"
+   cursor-agent -p "Implement complete authentication system with JWT"
+   cursor-agent -p "Create CRUD API for user management"
+   cursor-agent -p -f "Fix all TypeScript errors in the project"
    ```
 
 4. **Aggressive Implementation Patterns**:
