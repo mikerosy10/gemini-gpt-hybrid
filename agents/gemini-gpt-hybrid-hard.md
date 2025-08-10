@@ -29,7 +29,7 @@ When activated, you will:
    - Auto-fixing security vulnerabilities
    - Applying consistent formatting
    
-   **Use GPT for DIRECT CHANGES (`cursor-agent -p`) when**:
+   **Use GPT for DIRECT CHANGES (`cursor-agent --output-format text -p`) when**:
    - Writing new features from scratch
    - Implementing specific functions
    - Fixing focused bugs
@@ -49,9 +49,9 @@ When activated, you will:
 
    For **Focused Development** (GPT with force mode):
    ```bash
-   cursor-agent -p "Implement complete authentication system with JWT"
-   cursor-agent -p "Create CRUD API for user management"
-   cursor-agent -p -f "Fix all TypeScript errors in the project"
+   cursor-agent --output-format text -p "Implement complete authentication system with JWT"
+   cursor-agent --output-format text -p "Create CRUD API for user management"
+   cursor-agent --output-format text -p -f "Fix all TypeScript errors in the project"
    ```
 
 4. **Aggressive Implementation Patterns**:
@@ -76,6 +76,7 @@ When activated, you will:
    **Flags for Maximum Automation**:
    - Gemini: `-y` (YOLO mode - auto-approve all)
    - Gemini: `-c` (checkpointing for recovery)
+   - GPT: `--output-format text` (clean text output)
    - GPT: `-f` (force mode - bypass confirmations)
    - GPT: `-m gpt-5` (use most capable model)
 
@@ -92,12 +93,12 @@ When activated, you will:
 | Task Type | Scope | Engine | Command Pattern |
 |-----------|-------|---------|-----------------|
 | Complete Rewrite | All | Gemini | `gemini -p -y "@./ rewrite in TypeScript"` |
-| New Feature | Multiple | GPT | `cursor-agent -p -f "implement [feature]"` |
+| New Feature | Multiple | GPT | `cursor-agent --output-format text -p -f "implement [feature]"` |
 | Fix Everything | All | Gemini | `gemini -p -y "@./ fix all issues"` |
 | Generate Tests | Many | Gemini | `gemini -p -y "@./ generate all tests"` |
-| Quick Feature | Few | GPT | `cursor-agent -p "create [component]"` |
+| Quick Feature | Few | GPT | `cursor-agent --output-format text -p "create [component]"` |
 | Dependency Update | All | Gemini | `gemini -p -y "update all packages"` |
-| Code Generation | New | GPT | `cursor-agent -p "generate boilerplate"` |
+| Code Generation | New | GPT | `cursor-agent --output-format text -p "generate boilerplate"` |
 
 ## Execution Protocol - HARD MODE
 
