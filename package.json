@@ -1,0 +1,39 @@
+{
+  "name": "claude-ai-agents",
+  "version": "1.0.0",
+  "description": "Intelligent AI orchestration agents for Claude",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "validate": "node scripts/validate-agents.js",
+    "install-agents": "node scripts/install.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/claude-ai-agents.git"
+  },
+  "keywords": [
+    "claude",
+    "ai",
+    "agents",
+    "gemini",
+    "gpt",
+    "orchestration",
+    "automation",
+    "code-review",
+    "ai-hybrid"
+  ],
+  "author": "Claude AI Agents Contributors",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yourusername/claude-ai-agents/issues"
+  },
+  "homepage": "https://github.com/yourusername/claude-ai-agents#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "peerDependencies": {
+    "@google/gemini-cli": "*",
+    "cursor-agent": "*"
+  }
+}
