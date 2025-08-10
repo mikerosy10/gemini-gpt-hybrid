@@ -104,7 +104,7 @@ All submissions require review. We use GitHub pull requests for this purpose. Co
 
 1. **Set up your development environment**:
    ```bash
-   git clone https://github.com/yourusername/claude-ai-agents.git
+   git clone https://github.com/NEWBIE0413/claude-ai-agents.git
    cd claude-ai-agents
    ```
 
@@ -131,8 +131,8 @@ All submissions require review. We use GitHub pull requests for this purpose. Co
 ## 📚 Additional Resources
 
 - [Claude Documentation](https://docs.anthropic.com/claude)
-- [Agent Development Guide](https://github.com/yourusername/claude-ai-agents/wiki/Agent-Development)
-- [Testing Guidelines](https://github.com/yourusername/claude-ai-agents/wiki/Testing)
+- [Agent Development Guide](https://github.com/NEWBIE0413/claude-ai-agents/wiki/Agent-Development)
+- [Testing Guidelines](https://github.com/NEWBIE0413/claude-ai-agents/wiki/Testing)
 
 ## 💬 Questions?
 

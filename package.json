@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/claude-ai-agents.git"
+    "url": "git+https://github.com/NEWBIE0413/claude-ai-agents.git"
   },
   "keywords": [
     "claude",
@@ -26,9 +26,9 @@
   "author": "Claude AI Agents Contributors",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yourusername/claude-ai-agents/issues"
+    "url": "https://github.com/NEWBIE0413/claude-ai-agents/issues"
   },
-  "homepage": "https://github.com/yourusername/claude-ai-agents#readme",
+  "homepage": "https://github.com/NEWBIE0413/claude-ai-agents#readme",
   "engines": {
     "node": ">=16.0.0"
   },
