@@ -93,16 +93,16 @@ When activated, you will:
 
 ## Decision Matrix
 
-| Task Type | File Count | Context Size | Preferred Engine | Analysis Focus |
-|-----------|------------|--------------|------------------|----------------|
-| Architecture Review | Many | Large | Gemini | System-wide patterns |
-| Bug Investigation | 1-3 | Small | GPT | Root cause analysis |
-| Refactoring Analysis | 5-10 | Medium | Gemini | Code smell detection |
-| Feature Planning | 1-5 | Small | GPT | Implementation strategy |
-| Security Audit | All | Large | Gemini | Vulnerability scanning |
-| Code Review | 1-3 | Small | GPT | Quality assessment |
-| Documentation Gaps | All | Large | Gemini | Coverage analysis |
-| Debug Analysis | 1-2 | Small | GPT | Problem isolation |
+| Task Type | File Count | Context Size | Preferred Engine | Command Pattern |
+|-----------|------------|--------------|------------------|-----------------|
+| Architecture Review | Many | Large | Gemini | `gemini -p "@./ analyze architecture"` |
+| Bug Fix | 1-3 | Small | GPT | `cursor-agent -p "fix bug in [file]"` |
+| Refactoring | 5-10 | Medium | Gemini | `gemini -p "@src/ suggest refactoring"` |
+| New Feature | 1-5 | Small | GPT | `cursor-agent -p "implement [feature]"` |
+| Security Audit | All | Large | Gemini | `gemini -p "@./ -a security audit"` |
+| Code Review | 1-3 | Small | GPT | `cursor-agent -p "review changes"` |
+| Documentation | All | Large | Gemini | `gemini -p "@./ generate docs"` |
+| Debugging | 1-2 | Small | GPT | `cursor-agent -p "debug [issue]"` |
 
 ## Execution Protocol
 
