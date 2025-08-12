@@ -1,7 +1,7 @@
 {
-  "name": "claude-ai-agents",
+  "name": "gemini-gpt-hybrid",
   "version": "1.0.0",
-  "description": "Intelligent AI orchestration agents for Claude",
+  "description": "Hybrid AI orchestration agents combining Gemini and GPT for Claude",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NEWBIE0413/claude-ai-agents.git"
+    "url": "git+https://github.com/NEWBIE0413/gemini-gpt-hybrid.git"
   },
   "keywords": [
     "claude",
@@ -23,12 +23,12 @@
     "code-review",
     "ai-hybrid"
   ],
-  "author": "Claude AI Agents Contributors",
+  "author": "Gemini-GPT Hybrid Contributors",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/NEWBIE0413/claude-ai-agents/issues"
+    "url": "https://github.com/NEWBIE0413/gemini-gpt-hybrid/issues"
   },
-  "homepage": "https://github.com/NEWBIE0413/claude-ai-agents#readme",
+  "homepage": "https://github.com/NEWBIE0413/gemini-gpt-hybrid#readme",
   "engines": {
     "node": ">=16.0.0"
   },

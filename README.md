@@ -70,8 +70,8 @@ graph TD
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/NEWBIE0413/claude-ai-agents.git
-cd claude-ai-agents
+git clone https://github.com/NEWBIE0413/gemini-gpt-hybrid.git
+cd gemini-gpt-hybrid
 ```
 
 2. **Copy agents to Claude configuration:**
@@ -256,14 +256,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 💬 Support
 
-- **Documentation**: [Wiki](https://github.com/NEWBIE0413/claude-ai-agents/wiki)
-- **Issues**: [GitHub Issues](https://github.com/NEWBIE0413/claude-ai-agents/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/NEWBIE0413/claude-ai-agents/discussions)
+- **Documentation**: [Wiki](https://github.com/NEWBIE0413/gemini-gpt-hybrid/wiki)
+- **Issues**: [GitHub Issues](https://github.com/NEWBIE0413/gemini-gpt-hybrid/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/NEWBIE0413/gemini-gpt-hybrid/discussions)
 - **Discord**: [Join our community](https://discord.gg/claude-agents)
 
 ## 🌟 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=NEWBIE0413/claude-ai-agents&type=Date)](https://star-history.com/#NEWBIE0413/claude-ai-agents&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=NEWBIE0413/gemini-gpt-hybrid&type=Date)](https://star-history.com/#NEWBIE0413/gemini-gpt-hybrid&Date)
 
 ---
 
@@ -272,6 +272,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Built with ❤️ by the Claude community**
 
 [![Follow on GitHub](https://img.shields.io/github/followers/NEWBIE0413?label=Follow&style=social)](https://github.com/NEWBIE0413)
-[![Tweet](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2FNEWBIE0413%2Fclaude-ai-agents)](https://twitter.com/intent/tweet?text=Check%20out%20Claude%20AI%20Agents!&url=https://github.com/NEWBIE0413/claude-ai-agents)
+[![Tweet](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2FNEWBIE0413%2Fgemini-gpt-hybrid)](https://twitter.com/intent/tweet?text=Check%20out%20Gemini%20GPT%20Hybrid%20Agents!&url=https://github.com/NEWBIE0413/gemini-gpt-hybrid)
 
 </div>

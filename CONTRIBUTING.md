@@ -1,6 +1,6 @@
-# Contributing to Claude AI Agents
+# Contributing to Gemini-GPT Hybrid Agents
 
-First off, thank you for considering contributing to Claude AI Agents! It's people like you that make this project such a great tool.
+First off, thank you for considering contributing to Gemini-GPT Hybrid Agents! It's people like you that make this project such a great tool.
 
 ## 🤝 Code of Conduct
 
@@ -104,8 +104,8 @@ All submissions require review. We use GitHub pull requests for this purpose. Co
 
 1. **Set up your development environment**:
    ```bash
-   git clone https://github.com/NEWBIE0413/claude-ai-agents.git
-   cd claude-ai-agents
+   git clone https://github.com/NEWBIE0413/gemini-gpt-hybrid.git
+   cd gemini-gpt-hybrid
    ```
 
 2. **Create a new branch**:
@@ -131,8 +131,8 @@ All submissions require review. We use GitHub pull requests for this purpose. Co
 ## 📚 Additional Resources
 
 - [Claude Documentation](https://docs.anthropic.com/claude)
-- [Agent Development Guide](https://github.com/NEWBIE0413/claude-ai-agents/wiki/Agent-Development)
-- [Testing Guidelines](https://github.com/NEWBIE0413/claude-ai-agents/wiki/Testing)
+- [Agent Development Guide](https://github.com/NEWBIE0413/gemini-gpt-hybrid/wiki/Agent-Development)
+- [Testing Guidelines](https://github.com/NEWBIE0413/gemini-gpt-hybrid/wiki/Testing)
 
 ## 💬 Questions?
 
